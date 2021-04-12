@@ -1,6 +1,6 @@
 FROM dockerfile/java
 
-# Install Tomcat7
+# Install Tomcat 7
 RUN sudo apt-get update && sudo apt-get install tomcat7
 
 # Add webapp into docker image into Tomcat's webapps directory
